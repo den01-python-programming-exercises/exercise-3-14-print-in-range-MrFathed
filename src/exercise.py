@@ -4,7 +4,7 @@ def main():
     print_numbers_in_range(numbers, 0, 5)
 
 def print_numbers_in_range(numbers, lower_limit, upper_limit):
-    print("The numbers in range [{}, {}]".format(lower_limit, upper_limit))
+    print("The numbers in the range [{}, {}]".format(lower_limit, upper_limit))
     for number in numbers:
         if number >= lower_limit and number <= upper_limit:
             print(number)
